@@ -1,0 +1,19 @@
+{
+  "lookup": {
+    "eJyLrq6NBQAEOAGx": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fmJRfWhJfnJtYVBKfnFlSWVsbCwC2VyHF": "utter_ask_about_smart_city",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fmJRfWhJfnJtYVBKfnFlSWUvAyNKSktSieKw6iTQ/FgBgr0dX": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fmJRfWhKfWJ5YlFJcWxsLADHeIAg=": "utter_ask_about_awards",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fmJRfWhKfWJ5YlFJcS8C40pKS1KJ4DF1EmBsLAAz1QiA=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytbY2FgAh+hxX": "utter_goodbye",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohPT8/JakytZaAKaUlJalF8TDFuE2JBQCMqTcN": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taS2NhYA6dwbhQ==": "utter_greet",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3xEohvSg1taSWgBmlJSWpRfEQpbhMiAUAQvc0lw==": "action_listen",
+    "eJydjlEKgCAQBa/iATqBV4lYNllCylXWNQjx7gn2L/T3BobhrbUtpiahG9Cpj2xNHQMYA1nzweWzEne3ZJLueO6o1hxCpG3SKKokMNR/hckLzCfgHouCiyEhP61tL3n1U2M=": "utter_ask_about_company",
+    "eJydjlEKgCAQRK/iATqBV4lYNllCylV0DUK8e4L99ZH0NwNvHjOXOqkSIp2ARqxnrUoPwOhIq6ccNglxY3Oi2BjLrYpWWySS+uHIIhSho/8MHy8w7YCrzwLGu4B8jT16z0bMyw3sdHZl": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fmJRfWhKflpmXmJecmZdeWxsLAJOUITM=": "utter_ask_about_financing",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fmJRfWhKflpmXmJecmZdeS8DE0pKS1KJ4bBqJMz0WAHEdRaE=": "action_listen",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fmJRfWhKfXpRfXpJRWxsLADKQICE=": "utter_ask_about_growth",
+    "eJyLrq7VUaguKEoti09MLsnMz7NSqIYw4vMSc1OtFKCcnMziktQ8oNrS4tQioJrMPCC3BChdnB2fmJRfWhKfXpRfXpJRS8C40pKS1KJ4DF1EmBsLABr1Qms=": "action_listen"
+  }
+}

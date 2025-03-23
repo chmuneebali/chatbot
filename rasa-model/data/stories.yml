@@ -1,30 +1,42 @@
 version: "3.1"
 
 stories:
+  - story: User asks about company milestones
+    steps:
+      - intent: company_milestones
+      - action: utter_company_milestones
 
-- story: happy path
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_great
-  - action: utter_happy
+  - story: User asks about CEO background
+    steps:
+      - intent: ceo_background
+      - action: utter_ceo_background
 
-- story: sad path 1
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: affirm
-  - action: utter_happy
+  - story: User asks about global expansion
+    steps:
+      - intent: global_expansion
+      - action: utter_global_expansion
 
-- story: sad path 2
-  steps:
-  - intent: greet
-  - action: utter_greet
-  - intent: mood_unhappy
-  - action: utter_cheer_up
-  - action: utter_did_that_help
-  - intent: deny
-  - action: utter_goodbye
+  - story: User asks about financial details
+    steps:
+      - intent: financial_details
+      - action: utter_financial_details
+
+  - story: User asks about partnerships
+    steps:
+      - intent: partnerships
+      - action: utter_partnerships
+
+  - story: User asks about awards and recognition
+    steps:
+      - intent: awards_and_recognition
+      - action: utter_awards_and_recognition
+
+  - story: User asks about contact information
+    steps:
+      - intent: contact_information
+      - action: utter_contact_information
+
+  - story: User asks about press releases
+    steps:
+      - intent: press_releases
+      - action: utter_press_releases

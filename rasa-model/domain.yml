@@ -1,33 +1,56 @@
 version: "3.1"
 
+domain:
 intents:
+  - company_milestones
+  - ceo_background
+  - global_expansion
+  - financial_details
+  - partnerships
+  - awards_and_recognition
+  - contact_information
+  - press_releases
+  - open_query
+  - fallback
   - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_challenge
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+    - text: "Hello! How can I assist you today?"
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_company_milestones:
+    - text: "The Choates Family of Companies has achieved several milestones, including multi-million-dollar contracts and global expansion initiatives."
 
-  utter_did_that_help:
-  - text: "Did that help you?"
+  utter_ceo_background:
+    - text: "Darrell K. Choates Sr. is the CEO of the Choates Family of Companies and has over 40 years of experience in the construction industry."
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_global_expansion:
+    - text: "The company has expanded internationally, including the development of the USA River Satellite City in Tanzania."
 
-  utter_goodbye:
-  - text: "Bye"
+  utter_financial_details:
+    - text: "The company reported $16 billion in revenue for 2024, with a projected increase to $18 billion in 2025."
 
-  utter_iamabot:
-  - text: "I am a bot, powered by Rasa."
+  utter_partnerships:
+    - text: "The company collaborates with Central International College, Youth Corporation, and global ambassadors to empower communities."
+
+  utter_awards_and_recognition:
+    - text: "Mr. Choates has received several awards, including Minority Contractor of the Year and the Best of Philly Award."
+
+  utter_contact_information:
+    - text: "You can contact the company at choateslic@choatescompanieslic.com or visit 401 Cooper Landing Road, Suite C4, Cherry Hill, NJ."
+
+  utter_press_releases:
+    - text: "Recent press releases highlight the company's success in real estate, blockchain, and economic empowerment."
+
+  utter_fallback:
+    - text: "I'm sorry, I don't have an answer for that. Let me fetch relevant details for you."
+
+  utter_open_query:
+    - text: "Let me find the best response for your query. One moment..."
+
+actions:
+  - action_query_knowledge_base
+  - action_default_fallback
 
 session_config:
   session_expiration_time: 60

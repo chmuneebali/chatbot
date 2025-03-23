@@ -1,13 +1,35 @@
-version: "3.1"
-
 rules:
+  - rule: Respond to greetings
+    steps:
+      - intent: greet
+      - action: utter_greet
 
-- rule: Say goodbye anytime the user says goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
+  - rule: Respond to goodbyes
+    steps:
+      - intent: goodbye
+      - action: utter_goodbye
 
-- rule: Say 'I am a bot' anytime the user challenges
-  steps:
-  - intent: bot_challenge
-  - action: utter_iamabot
+  - rule: Respond to company info
+    steps:
+      - intent: ask_about_company
+      - action: utter_ask_about_company
+
+  - rule: Respond to financing questions
+    steps:
+      - intent: ask_about_financing
+      - action: utter_ask_about_financing
+
+  - rule: Respond to growth questions
+    steps:
+      - intent: ask_about_growth
+      - action: utter_ask_about_growth
+
+  - rule: Respond to awards questions
+    steps:
+      - intent: ask_about_awards
+      - action: utter_ask_about_awards
+
+  - rule: Respond to smart city questions
+    steps:
+      - intent: ask_about_smart_city
+      - action: utter_ask_about_smart_city

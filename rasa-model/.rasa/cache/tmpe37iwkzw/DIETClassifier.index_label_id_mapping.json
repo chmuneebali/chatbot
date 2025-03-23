@@ -1,0 +1,15 @@
+{
+  "0": "affirm",
+  "1": "ask_about_awards",
+  "2": "ask_about_company",
+  "3": "ask_about_financing",
+  "4": "ask_about_growth",
+  "5": "ask_about_partnerships",
+  "6": "ask_about_smart_city",
+  "7": "bot_challenge",
+  "8": "deny",
+  "9": "goodbye",
+  "10": "greet",
+  "11": "mood_great",
+  "12": "mood_unhappy"
+}

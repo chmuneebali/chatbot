@@ -1,91 +1,58 @@
 version: "3.1"
 
 nlu:
-- intent: greet
-  examples: |
-    - hey
-    - hello
-    - hi
-    - hello there
-    - good morning
-    - good evening
-    - moin
-    - hey there
-    - let's go
-    - hey dude
-    - goodmorning
-    - goodevening
-    - good afternoon
+  - intent: company_milestones
+    examples: |
+      - Tell me about the company's milestones.
+      - What achievements has the Choates Family of Companies had?
+      - What major projects has the company completed?
+      - Can you list some company recognitions?
 
-- intent: goodbye
-  examples: |
-    - cu
-    - good by
-    - cee you later
-    - good night
-    - bye
-    - goodbye
-    - have a nice day
-    - see you around
-    - bye bye
-    - see you later
+  - intent: ceo_background
+    examples: |
+      - Who is Darrell K. Choates Sr.?
+      - Tell me about the CEO of Choates Family of Companies.
+      - What is the background of Darrell K. Choates Sr.?
+      - How did Mr. Choates start his company?
 
-- intent: affirm
-  examples: |
-    - yes
-    - y
-    - indeed
-    - of course
-    - that sounds good
-    - correct
+  - intent: global_expansion
+    examples: |
+      - What are the global initiatives of the company?
+      - How is the company expanding internationally?
+      - What projects does the company have in Africa?
+      - Tell me about the USA River Satellite City project.
 
-- intent: deny
-  examples: |
-    - no
-    - n
-    - never
-    - I don't think so
-    - don't like that
-    - no way
-    - not really
+  - intent: financial_details
+    examples: |
+      - What are the company’s financials?
+      - Can you provide revenue details of the Choates Family of Companies?
+      - What are the company's projected earnings?
+      - How much profit does the company generate?
 
-- intent: mood_great
-  examples: |
-    - perfect
-    - great
-    - amazing
-    - feeling like a king
-    - wonderful
-    - I am feeling very good
-    - I am great
-    - I am amazing
-    - I am going to save the world
-    - super stoked
-    - extremely good
-    - so so perfect
-    - so good
-    - so perfect
+  - intent: partnerships
+    examples: |
+      - What partnerships does the company have?
+      - Who are the company's major partners?
+      - Tell me about the company's partnerships for education and rehabilitation.
+      - What organizations are collaborating with the Choates Family of Companies?
 
-- intent: mood_unhappy
-  examples: |
-    - my day was horrible
-    - I am sad
-    - I don't feel very well
-    - I am disappointed
-    - super sad
-    - I'm so sad
-    - sad
-    - very sad
-    - unhappy
-    - not good
-    - not very good
-    - extremly sad
-    - so saad
-    - so sad
+  - intent: awards_and_recognition
+    examples: |
+      - What awards has the company received?
+      - Tell me about the company’s recognitions.
+      - Has Mr. Choates received any awards?
+      - What achievements have been recognized?
 
-- intent: bot_challenge
-  examples: |
-    - are you a bot?
-    - are you a human?
-    - am I talking to a bot?
-    - am I talking to a human?
+  - intent: contact_information
+    examples: |
+      - How can I contact the company?
+      - What is the company’s email address?
+      - Where is the headquarters of the Choates Family of Companies?
+      - What are the company’s phone numbers?
+
+  - intent: press_releases
+    examples: |
+      - What press releases have been published about the company?
+      - Can you share the latest news about the Choates Family of Companies?
+      - Where can I find articles about the company?
+      - What has been written about the company in the media?
