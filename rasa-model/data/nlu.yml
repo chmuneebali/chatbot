@@ -1,58 +1,47 @@
 version: "3.1"
 
 nlu:
-  - intent: company_milestones
+  - intent: greet
     examples: |
-      - Tell me about the company's milestones.
-      - What achievements has the Choates Family of Companies had?
-      - What major projects has the company completed?
-      - Can you list some company recognitions?
+      - Hello
+      - Hi there!
+      - Hey
+      - Good morning
+      - Good evening
+      - Hi, how are you?
 
-  - intent: ceo_background
+  - intent: ask_about_financing
     examples: |
-      - Who is Darrell K. Choates Sr.?
-      - Tell me about the CEO of Choates Family of Companies.
-      - What is the background of Darrell K. Choates Sr.?
-      - How did Mr. Choates start his company?
+      - What financing options are available?
+      - Can I get a loan through your company?
+      - Tell me about payment plans.
 
-  - intent: global_expansion
+  - intent: ask_about_smart_city
     examples: |
-      - What are the global initiatives of the company?
-      - How is the company expanding internationally?
-      - What projects does the company have in Africa?
-      - Tell me about the USA River Satellite City project.
+      - What is your smart city initiative?
+      - How does your company support smart city projects?
+      - Tell me about the USA River Satellite City.
 
-  - intent: financial_details
+  - intent: ask_about_awards
     examples: |
-      - What are the company’s financials?
-      - Can you provide revenue details of the Choates Family of Companies?
-      - What are the company's projected earnings?
-      - How much profit does the company generate?
+      - What awards has the company won?
+      - Tell me about your company's recognitions.
+      - Has the CEO received any awards?
 
-  - intent: partnerships
+  - intent: ask_about_growth
     examples: |
-      - What partnerships does the company have?
-      - Who are the company's major partners?
-      - Tell me about the company's partnerships for education and rehabilitation.
-      - What organizations are collaborating with the Choates Family of Companies?
+      - How has the company grown over the years?
+      - What is the company's expansion strategy?
+      - How did your company become so successful?
 
-  - intent: awards_and_recognition
+  - intent: iamabot
     examples: |
-      - What awards has the company received?
-      - Tell me about the company’s recognitions.
-      - Has Mr. Choates received any awards?
-      - What achievements have been recognized?
+      - Who are you?
+      - What is your name?
+      - Are you a human or a bot?
 
-  - intent: contact_information
+  - intent: fallback
     examples: |
-      - How can I contact the company?
-      - What is the company’s email address?
-      - Where is the headquarters of the Choates Family of Companies?
-      - What are the company’s phone numbers?
-
-  - intent: press_releases
-    examples: |
-      - What press releases have been published about the company?
-      - Can you share the latest news about the Choates Family of Companies?
-      - Where can I find articles about the company?
-      - What has been written about the company in the media?
+      - I don't understand.
+      - Can you explain that again?
+      - That doesn't make sense to me.

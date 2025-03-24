@@ -13,6 +13,14 @@ intents:
   - open_query
   - fallback
   - greet
+  - ask_about_financing
+  - ask_about_smart_city
+  - ask_about_awards
+  - iamabot
+  - ask_about_growth
+  - ask_general_query
+  - ask_about_company
+  - goodbye
 
 responses:
   utter_greet:
@@ -43,10 +51,37 @@ responses:
     - text: "Recent press releases highlight the company's success in real estate, blockchain, and economic empowerment."
 
   utter_fallback:
-    - text: "I'm sorry, I don't have an answer for that. Let me fetch relevant details for you."
+    - text: "I'm sorry, I don't have an answer for that. Let me check my knowledge base. One moment..."
 
   utter_open_query:
     - text: "Let me find the best response for your query. One moment..."
+
+  utter_ask_about_financing:
+    - text: "We offer various financing options. Please let me know what specific information you need."
+
+  utter_ask_about_smart_city:
+    - text: "Our smart city initiatives focus on sustainable development, integrating advanced technology for efficient urban management. Let me know how I can help with more details."
+
+  utter_ask_about_awards:
+    - text: "We have received multiple awards for excellence in various fields. Please specify which awards you would like to learn more about."
+
+  utter_iamabot:
+    - text: "I am a virtual assistant powered by Rasa. How can I help you today?"
+
+  utter_ask_about_growth:
+    - text: "The company has experienced significant growth through strategic partnerships and investments in new technology. Let me know if you need specific details."
+
+  utter_did_that_help:
+    - text: "Did that answer your question? Let me know if you need more details."
+
+  utter_ask_general_query:
+    - text: "That's an interesting question. Let me look up some relevant information for you."
+
+  utter_ask_about_company:
+    - text: "The company is a leader in innovation, providing top-tier solutions in various industries. How can I help with more details?"
+
+  utter_goodbye:
+    - text: "Goodbye! Have a great day. Let me know if you need anything else."
 
 actions:
   - action_query_knowledge_base

@@ -1,42 +1,34 @@
 version: "3.1"
 
 stories:
-  - story: User asks about company milestones
+  - story: Greet and ask about financing
     steps:
-      - intent: company_milestones
-      - action: utter_company_milestones
+      - intent: greet
+      - action: utter_greet
+      - intent: ask_about_financing
+      - action: utter_ask_about_financing
 
-  - story: User asks about CEO background
+  - story: Ask about smart city project
     steps:
-      - intent: ceo_background
-      - action: utter_ceo_background
+      - intent: ask_about_smart_city
+      - action: utter_ask_about_smart_city
 
-  - story: User asks about global expansion
+  - story: Ask about awards
     steps:
-      - intent: global_expansion
-      - action: utter_global_expansion
+      - intent: ask_about_awards
+      - action: utter_ask_about_awards
 
-  - story: User asks about financial details
+  - story: Ask about company growth
     steps:
-      - intent: financial_details
-      - action: utter_financial_details
+      - intent: ask_about_growth
+      - action: utter_ask_about_growth
 
-  - story: User asks about partnerships
+  - story: Ask if bot is human
     steps:
-      - intent: partnerships
-      - action: utter_partnerships
+      - intent: iamabot
+      - action: utter_iamabot
 
-  - story: User asks about awards and recognition
+  - story: Fallback scenario
     steps:
-      - intent: awards_and_recognition
-      - action: utter_awards_and_recognition
-
-  - story: User asks about contact information
-    steps:
-      - intent: contact_information
-      - action: utter_contact_information
-
-  - story: User asks about press releases
-    steps:
-      - intent: press_releases
-      - action: utter_press_releases
+      - intent: fallback
+      - action: utter_fallback
